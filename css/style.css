@@ -6,7 +6,7 @@
       max-width: 1600px;
       padding-left: 20px;
   }
-  
+
   .top-nav li {
       list-style: none;
       display: inline;
@@ -95,17 +95,18 @@
   
   .content {
       margin-top: 10px;
+      display: flex;
   }
   
-  .second-content {
-      border: 1px solid;
+  .second-content {	  
       max-width: 27%;
+      border-left: 1px solid #c2cad6;
+      border-right: 1px solid #c2cad6;
       width: 27%;
       float: left;
   }
   
   .side-bar {
-      border: 1px solid;
       max-width: 26.5%;
       width: 26.5%;
       float: right;
@@ -193,4 +194,39 @@
 
   .links:hover {
   	color: #a0aaba;
+  }
+
+  .second-content section {
+  	padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c2cad6;
+  }
+
+  .agenda {
+  	display: flex;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  }
+  .calendar {
+  	text-align: center;
+  	font-weight: bold;
+  	float: left;
+  	background-color: rgba(0,0,0,0.5);
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  	padding: 4px 4px 4px 4px;
+  	width: 100px;
+  }
+
+  .agenda p {
+  	margin-top : 0;
+  	margin-bottom: 0;
+  	padding-right: 0;
+  	padding-left: 5px;
+  }
+  .agenda h5 {
+  	padding-left: 5px;
+  	margin-top : 0;
+  	margin-bottom: 0;
   }
